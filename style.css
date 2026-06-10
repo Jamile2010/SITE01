@@ -1,0 +1,54 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    background:#f4f4f4;
+    font-family: Georgia, serif;
+}
+
+.container {
+    width: 800px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px 40px;
+}
+
+header {
+    background: #123b6b;
+    color: white;
+    text-align: center;
+    padding: 35px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+.post {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.post img {
+    width: 50px;
+    height: 50px;
+}
+
+.conteudo h2 {
+    color: #123b6b;
+    margin-bottom: 10px;
+}
+
+.autor {
+    margin-bottom: 15px;
+}
+
+.reacoes {
+    margin-top: 10px;
+    font-size: 14px;
+}
